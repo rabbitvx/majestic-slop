@@ -1,0 +1,27 @@
+# build output
+build/
+build_ollvm/
+src/build/
+out/
+.vs/
+
+# downloaded toolchains / extracted archives (fetched by build_ollvm.ps1)
+ollvm/
+ollvm_patch/
+ninja.exe
+*.zip
+*.7z
+
+# binaries that are not part of the source tree
+tools/vmpdump/*.exe
+
+# IDE
+*.user
+*.suo
+*.sln
+*.vcxproj
+*.vcxproj.filters
+CMakeUserPresets.json
+
+# dumps produced by tools/vmpdump
+tools/vmpdump/*.bin
